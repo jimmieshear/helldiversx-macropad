@@ -4,7 +4,7 @@
 import lib.hell_constants as h
 
 app = {
-    'name' : 'Weapons',
+    'name' : 'Bug-Defense',
     'macros' : [
         # COLOR    LABEL        KEY SEQUENCE
         # 1st row ----------
