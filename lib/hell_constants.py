@@ -88,3 +88,15 @@ GREEN = 0x002000
 RED = 0x200000
 BLUE = 0x000020
 ORANGE = 0xFF9714
+
+START_INPUT_DELAY = 0.4
+KEY_DELAY = 0.05
+START_INPUT = Keycode.CONTROL
+
+def stratagem(input_s):
+    keys = [START_INPUT, START_INPUT_DELAY]
+
+    for key in input_s:
+        keys += [key, KEY_DELAY, -key, KEY_DELAY]
+
+    return keys
