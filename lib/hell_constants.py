@@ -10,7 +10,7 @@ AR23_GUARD_DOG = (Keycode.S, Keycode.W , Keycode.A, Keycode.W, Keycode.D, Keycod
 LAS_5_GUARD_DOG = (Keycode.S, Keycode.W, Keycode.A, Keycode.W, Keycode.D, Keycode.D)
 GAS_GUARD_DOG = (Keycode.S, Keycode.W, Keycode.A, Keycode.W, Keycode.D, Keycode.W)
 
-# SKeycode.WPORT WEAPONS
+# SUPPORT WEAPONS
 MACHINE_GUN = (Keycode.S, Keycode.A, Keycode.S, Keycode.W, Keycode.D)
 ANTI_MATERIAL = (Keycode.S, Keycode.A, Keycode.D, Keycode.W, Keycode.S)
 STALWART = (Keycode.S, Keycode.A, Keycode.S, Keycode.W, Keycode.W, Keycode.A)
@@ -28,7 +28,7 @@ ARC_THROWER = (Keycode.S, Keycode.D, Keycode.S, Keycode.W, Keycode.A, Keycode.A)
 QUASAR_CANNON = (Keycode.S, Keycode.S, Keycode.W, Keycode.A, Keycode.D)
 AIRBURST_ROCKET = (Keycode.S, Keycode.W, Keycode.W, Keycode.A, Keycode.D)
 
-# SKeycode.WPORT MECH
+# SUPPORT MECH
 EX045_PATRIOT = (Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keycode.S, Keycode.S)
 EXO49_EMANCIPATOR = (Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keycode.S, Keycode.W)
 
