@@ -34,7 +34,6 @@ EXO49_EMANCIPATOR = (Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keyc
 
 # MISSION STRATAGEMS
 REINFORCE = (Keycode.W, Keycode.S, Keycode.D, Keycode.A, Keycode.W)
-#REINFORCE = (Keycode.W, Keycode.S, Keycode.D, Keycode.A, Keycode.W)
 SOS = (Keycode.W, Keycode.S, Keycode.D, Keycode.W)
 RESUPPLY = (Keycode.S, Keycode.S, Keycode.W, Keycode.D)
 HELLBOMB = (Keycode.S, Keycode.W, Keycode.A, Keycode.S, Keycode.W, Keycode.D, Keycode.S, Keycode.W)
