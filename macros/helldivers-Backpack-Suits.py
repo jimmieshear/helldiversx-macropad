@@ -6,7 +6,6 @@ import lib.hell_constants as h
 app = {
     'name' : 'Backpacks-Suits',
     'macros' : [
-        # COLOR    LABEL        KEY SEQUENCE
         # 1st row ----------
         h.prepare_macro(h.LAS_5_GUARD_DOG),
         h.prepare_macro(h.AR23_GUARD_DOG),
