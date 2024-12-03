@@ -6,28 +6,24 @@ import lib.hell_constants as h
 app = {
     'name' : 'Bugs-Fire1',
     'macros' : [
-        # COLOR    LABEL        KEY SEQUENCE
         # 1st row ----------
-        (h.YELLOW, 'Reinf',     h.stratagem(h.REINFORCE)),
-        (h.YELLOW, 'SEAF',      h.stratagem(h.SEAF)),
-        (h.GREEN,  'GatSen',    h.stratagem(h.GATLING_SENTRY)),
+        h.prepare_macro(h.REINFORCE),
+        h.prepare_macro(h.SEAF),
+        h.prepare_macro(h.GATLING_SENTRY),
 
         # 2nd row ----------
-        (h.BLUE,   'Gudog',     h.stratagem(h.AR23_GUARD_DOG)),
-        (h.GREEN,  'Grenade',   h.stratagem(h.GRENADE_LAUNCHER)),        
-        (h.GREEN,  'Stawl',     h.stratagem(h.STALWART)),
+        h.prepare_macro(h.AR23_GUARD_DOG),
+        h.prepare_macro(h.GRENADE_LAUNCHER),
+        h.prepare_macro(h.STALWART),
 
         # 3rd row ----------
-        (h.ORANGE, 'Nape',      h.stratagem(h.EAGLE_NAPALM_STRIKE)),
-        (h.RED,    'Barage',    h.stratagem(h.ORBITAL_NAPALM_BARRAGE)),
-        (h.ORANGE, '500',       h.stratagem(h.EAGLE_500KG)),
+        h.prepare_macro(h.EAGLE_NAPALM_STRIKE),
+        h.prepare_macro(h.ORBITAL_NAPALM_BARRAGE),
+        h.prepare_macro(h.EAGLE_500KG),
 
         # 4th row ----------
-        (h.RED,    'ORB120',    h.stratagem(h.ORBITAL_HE120_BARRAGE)),
-        (h.RED,    'ORB380',    h.stratagem(h.ORBITAL_HE380_BARRAGE)),
-        (h.RED,    'ORBLas',    h.stratagem(h.ORBITAL_LASER)), 
-        
-        # Encoder button ---
-        (0x000000, '',          []),
+        h.prepare_macro(h.ORBITAL_HE120_BARRAGE),
+        h.prepare_macro(h.ORBITAL_HE380_BARRAGE),
+        h.prepare_macro(h.ORBITAL_LASER),
     ]
 }
