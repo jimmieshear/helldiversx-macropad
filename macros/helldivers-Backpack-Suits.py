@@ -20,5 +20,10 @@ app = {
         h.prepare_macro(h.JUMP_PACK),
         h.prepare_macro(h.EX045_PATRIOT),
         h.prepare_macro(h.EXO49_EMANCIPATOR),
+
+        # 4th row ----------
+        h.prepare_macro(h.MORTAR_SENTRY),
+        h.prepare_macro(h.GATLING_SENTRY),
+        h.prepare_macro(h.TESLA_TOWER),
     ]
 }

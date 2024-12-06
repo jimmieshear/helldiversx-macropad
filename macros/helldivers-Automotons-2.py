@@ -1,5 +1,6 @@
 # https://adafruit-playground.com/u/squid_jpg/pages/easy-helldivers-ii-stratagem-macros-for-rp2040-macropad
 # MACROPAD Hotkeys: Helldiver II
+
 import lib.hell_constants as h
 
 app = {
