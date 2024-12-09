@@ -17,8 +17,8 @@ app = {
         h.prepare_macro(h.AUTOCANNON_SENTRY),
 
         # 3rd row ----------
-        h.prepare_macro(h.EAGLE_NAPALM_STRIKE),
-        h.prepare_macro(h.ORBITAL_PRECISION),
+        h.prepare_macro(h.RAILGUN),
+        h.prepare_macro(h.SUPPLY_PACK),
         h.prepare_macro(h.EAGLE_500KG),
 
         # 4th row ----------
