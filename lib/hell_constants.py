@@ -80,6 +80,7 @@ EMS_MORTAR_SENTRY       = {'color':GREEN, 'label':'EMSSen', 'keycode':(Keycode.S
 ANTI_PERSONNEL_MINE     = {'color':GREEN, 'label':'AntiPer', 'keycode':(Keycode.S, Keycode.A, Keycode.W, Keycode.D)}
 INCENDIARY_MINE         = {'color':GREEN, 'label':'FireMin', 'keycode':(Keycode.S, Keycode.A, Keycode.A, Keycode.S)}
 ANTI_TANK_MINE          = {'color':GREEN, 'label':'AntiTan', 'keycode':(Keycode.S, Keycode.A, Keycode.W, Keycode.W)}
+GAS_MINE                = {'color':GREEN, 'label':'GasMin', 'keycode':(Keycode.S, Keycode.A, Keycode.A, Keycode.D)}
 TESLA_TOWER             = {'color':GREEN, 'label':'TeslaT', 'keycode':(Keycode.S, Keycode.W, Keycode.D, Keycode.W, Keycode.A, Keycode.D)}
 SHIELD_GENERATOR_RELAY  = {'color':GREEN, 'label':'Shild', 'keycode':(Keycode.S, Keycode.S, Keycode.A, Keycode.D, Keycode.A, Keycode.D)}
 
