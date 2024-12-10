@@ -4,7 +4,7 @@
 import lib.hell_constants as h
 
 app = {
-    'name' : 'Automotons-2',
+    'name' : 'Automatons-Solo',
     'macros' : [
         # 1st row ----------
         h.prepare_macro(h.REINFORCE),
@@ -14,7 +14,7 @@ app = {
         # 2nd row ----------
         h.prepare_macro(h.AR23_GUARD_DOG),
         h.prepare_macro(h.AUTOCANNON),
-        h.prepare_macro(h.AUTOCANNON_SENTRY),
+        h.prepare_macro(h.GAS_MINE),
 
         # 3rd row ----------
         h.prepare_macro(h.RAILGUN),

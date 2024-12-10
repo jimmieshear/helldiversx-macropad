@@ -4,7 +4,7 @@
 import lib.hell_constants as h
 
 app = {
-    'name' : 'Automotons-1',
+    'name' : 'Automatons',
     'macros' : [
         # 1st row ----------
         h.prepare_macro(h.REINFORCE),
