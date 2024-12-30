@@ -34,6 +34,7 @@ SHIELD_GENERATOR        = {'color':BLUETWO, 'label':'Shild', 'keycode':(Keycode.
 AR23_GUARD_DOG          = {'color':BLUETWO, 'label':'AR23', 'keycode':(Keycode.S, Keycode.W , Keycode.A, Keycode.W, Keycode.D, Keycode.S)}
 LAS_5_GUARD_DOG         = {'color':BLUETWO, 'label':'Laz', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.W, Keycode.D, Keycode.D)}
 GAS_GUARD_DOG           = {'color':BLUETWO, 'label':'Gas', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.W, Keycode.D, Keycode.W)}
+DIRECTIONAL_SHIELD      = {'color':BLUETWO, 'label':'DShld', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.D, Keycode.W, Keycode.W)}
 
 # SUPPORT WEAPONS -- BLUE
 MACHINE_GUN             = {'color':BLUE, 'label':'MaGun', 'keycode':(Keycode.S, Keycode.A, Keycode.S, Keycode.W, Keycode.D)}
@@ -52,10 +53,12 @@ LASER_CANNON            = {'color':BLUE, 'label':'Lazer', 'keycode':(Keycode.S, 
 ARC_THROWER             = {'color':BLUE, 'label':'Arc', 'keycode':(Keycode.S, Keycode.D, Keycode.S, Keycode.W, Keycode.A, Keycode.A)}
 QUASAR_CANNON           = {'color':BLUE, 'label':'Quas', 'keycode':(Keycode.S, Keycode.S, Keycode.W, Keycode.A, Keycode.D)}
 AIRBURST_ROCKET         = {'color':BLUE, 'label':'Airbur', 'keycode':(Keycode.S, Keycode.W, Keycode.W, Keycode.A, Keycode.D)}
+WASP_LAUNCHER           = {'color':BLUE, 'label':'WASP', 'keycode':(Keycode.S, Keycode.S, Keycode.W, Keycode.S, Keycode.D)}
 
-# SUPPORT MECH -- BLUE
+# SUPPORT VEHICLES -- BLUE
 EX045_PATRIOT           = {'color':BLUE, 'label':'Patriot', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keycode.S, Keycode.S)}
 EXO49_EMANCIPATOR       = {'color':BLUE, 'label':'Emanc', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keycode.S, Keycode.W)}
+RECON_VEHICLE           = {'color':BLUE, 'label':'Recon', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.S, Keycode.D, Keycode.S, Keycode.W)}
 
 # MISSION -- YELLOW
 REINFORCE               = {'color':YELLOW, 'label':'Rein', 'keycode':(Keycode.W, Keycode.S, Keycode.D, Keycode.A, Keycode.W)}
@@ -83,6 +86,8 @@ ANTI_TANK_MINE          = {'color':GREEN, 'label':'AntiTan', 'keycode':(Keycode.
 GAS_MINE                = {'color':GREEN, 'label':'GasMin', 'keycode':(Keycode.S, Keycode.A, Keycode.A, Keycode.D)}
 TESLA_TOWER             = {'color':GREEN, 'label':'TeslaT', 'keycode':(Keycode.S, Keycode.W, Keycode.D, Keycode.W, Keycode.A, Keycode.D)}
 SHIELD_GENERATOR_RELAY  = {'color':GREEN, 'label':'Shild', 'keycode':(Keycode.S, Keycode.S, Keycode.A, Keycode.D, Keycode.A, Keycode.D)}
+ANTI_TANK_EMPLACEMENT   = {'color':GREEN, 'label':'ATank', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.D, Keycode.D, Keycode.D)}
+FLAME_SENTRY            = {'color':GREEN, 'label':'Flame', 'keycode':(Keycode.S, Keycode.W, Keycode.D, Keycode.S, Keycode.W, Keycode.W)}
 
 # OFFENSIVE ORBITAL -- RED
 ORBITAL_GATLING_BARRAGE = {'color':RED, 'label':'Gatlin', 'keycode':(Keycode.D, Keycode.S, Keycode.A, Keycode.W, Keycode.W)}
