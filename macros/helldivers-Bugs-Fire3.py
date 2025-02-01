@@ -8,7 +8,7 @@ app = {
     'macros' : [
         # 1st row ----------
         h.prepare_macro(h.SEAF),
-        h.prepare_macro(h.AUTOCANNON_SENTRY),
+        h.prepare_macro(h.ROCKET_SENTRY),
         h.prepare_macro(h.GATLING_SENTRY),
 
         # 2nd row ----------
