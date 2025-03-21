@@ -35,6 +35,7 @@ AR23_GUARD_DOG          = {'color':BLUETWO, 'label':'AR23', 'keycode':(Keycode.S
 LAS_5_GUARD_DOG         = {'color':BLUETWO, 'label':'Laz', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.W, Keycode.D, Keycode.D)}
 GAS_GUARD_DOG           = {'color':BLUETWO, 'label':'Gas', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.W, Keycode.D, Keycode.W)}
 DIRECTIONAL_SHIELD      = {'color':BLUETWO, 'label':'DShld', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.D, Keycode.W, Keycode.W)}
+PORTABLE_HELLBOMB       = {'color':BLUETWO, 'label':'Helbm', 'keycode':(Keycode.S, Keycode.D, Keycode.W, Keycode.W, Keycode.W)}
 
 # SUPPORT WEAPONS -- BLUE
 MACHINE_GUN             = {'color':BLUE, 'label':'MaGun', 'keycode':(Keycode.S, Keycode.A, Keycode.S, Keycode.W, Keycode.D)}
