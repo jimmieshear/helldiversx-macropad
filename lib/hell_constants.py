@@ -56,6 +56,8 @@ ARC_THROWER             = {'color':BLUE, 'label':'Arc', 'keycode':(Keycode.S, Ke
 QUASAR_CANNON           = {'color':BLUE, 'label':'Quas', 'keycode':(Keycode.S, Keycode.S, Keycode.W, Keycode.A, Keycode.D)}
 AIRBURST_ROCKET         = {'color':BLUE, 'label':'Airbur', 'keycode':(Keycode.S, Keycode.W, Keycode.W, Keycode.A, Keycode.D)}
 WASP_LAUNCHER           = {'color':BLUE, 'label':'WASP', 'keycode':(Keycode.S, Keycode.S, Keycode.W, Keycode.S, Keycode.D)}
+TRUE_FLAG               = {'color':BLUE, 'label':'FLAG', 'keycode':(Keycode.S, Keycode.A, Keycode.D, Keycode.D, Keycode.W)}
+DE_ESCALATOR            = {'color':BLUE, 'label':'DEsc', 'keycode':(Keycode.A, Keycode.D, Keycode.W, Keycode.A, Keycode.D)}
 
 # SUPPORT VEHICLES -- BLUE
 EX045_PATRIOT           = {'color':BLUE, 'label':'Patriot', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keycode.S, Keycode.S)}
@@ -90,6 +92,7 @@ TESLA_TOWER             = {'color':GREEN, 'label':'TeslaT', 'keycode':(Keycode.S
 SHIELD_GENERATOR_RELAY  = {'color':GREEN, 'label':'Shild', 'keycode':(Keycode.S, Keycode.S, Keycode.A, Keycode.D, Keycode.A, Keycode.D)}
 ANTI_TANK_EMPLACEMENT   = {'color':GREEN, 'label':'ATank', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.D, Keycode.D, Keycode.D)}
 FLAME_SENTRY            = {'color':GREEN, 'label':'Flame', 'keycode':(Keycode.S, Keycode.W, Keycode.D, Keycode.S, Keycode.W, Keycode.W)}
+GRENADE_WALL            = {'color':GREEN, 'label':'GWall', 'keycode':(Keycode.S, Keycode.D, Keycode.S, Keycode.A, Keycode.D)}
 
 # OFFENSIVE ORBITAL -- RED
 ORBITAL_GATLING_BARRAGE = {'color':RED, 'label':'Gatlin', 'keycode':(Keycode.D, Keycode.S, Keycode.A, Keycode.W, Keycode.W)}
