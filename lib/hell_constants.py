@@ -33,6 +33,7 @@ BALLISTIC_SHIELD        = {'color':BLUETWO, 'label':'Balst', 'keycode':(Keycode.
 SHIELD_GENERATOR        = {'color':BLUETWO, 'label':'Shild', 'keycode':(Keycode.S, Keycode.W , Keycode.A, Keycode.D, Keycode.A, Keycode.D)}
 AR23_GUARD_DOG          = {'color':BLUETWO, 'label':'AR23', 'keycode':(Keycode.S, Keycode.W , Keycode.A, Keycode.W, Keycode.D, Keycode.S)}
 LAS_5_GUARD_DOG         = {'color':BLUETWO, 'label':'Laz', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.W, Keycode.D, Keycode.D)}
+ARC3_GUARD_DOG          = {'color':BLUETWO, 'label':'ArcG', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.W, Keycode.D, Keycode.A)}
 GAS_GUARD_DOG           = {'color':BLUETWO, 'label':'Gas', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.W, Keycode.D, Keycode.W)}
 DIRECTIONAL_SHIELD      = {'color':BLUETWO, 'label':'DShld', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.D, Keycode.W, Keycode.W)}
 PORTABLE_HELLBOMB       = {'color':BLUETWO, 'label':'Helbm', 'keycode':(Keycode.S, Keycode.D, Keycode.W, Keycode.W, Keycode.W)}
@@ -58,6 +59,7 @@ AIRBURST_ROCKET         = {'color':BLUE, 'label':'Airbur', 'keycode':(Keycode.S,
 WASP_LAUNCHER           = {'color':BLUE, 'label':'WASP', 'keycode':(Keycode.S, Keycode.S, Keycode.W, Keycode.S, Keycode.D)}
 TRUE_FLAG               = {'color':BLUE, 'label':'FLAG', 'keycode':(Keycode.S, Keycode.A, Keycode.D, Keycode.D, Keycode.W)}
 DE_ESCALATOR            = {'color':BLUE, 'label':'DEsc', 'keycode':(Keycode.A, Keycode.D, Keycode.W, Keycode.A, Keycode.D)}
+TX_STERILIZER           = {'color':BLUE, 'label':'Sterl', 'keycode':(Keycode.S, Keycode.A, Keycode.W, Keycode.S, Keycode.A)}
 
 # SUPPORT VEHICLES -- BLUE
 EX045_PATRIOT           = {'color':BLUE, 'label':'Patriot', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keycode.S, Keycode.S)}

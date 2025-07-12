@@ -8,18 +8,18 @@ app = {
     'macros' : [
         # 1st row ----------
         h.prepare_macro(h.SEAF),
+        h.prepare_macro(h.STALWART),
         h.prepare_macro(h.ROCKET_SENTRY),
-        h.prepare_macro(h.GATLING_SENTRY),
 
         # 2nd row ----------
         h.prepare_macro(h.FLAMETHROWER),
         h.prepare_macro(h.HOVER_PACK),
-        h.prepare_macro(h.STALWART),
+        h.prepare_macro(h.GATLING_SENTRY),
 
         # 3rd row ----------
         h.prepare_macro(h.EAGLE_NAPALM_STRIKE),
-        h.prepare_macro(h.EAGLE_500KG),
         h.prepare_macro(h.EAGLE_CLUSTER_BOMB),
+        h.prepare_macro(h.EAGLE_500KG),
 
         # 4th row ----------
         h.prepare_macro(h.AR23_GUARD_DOG),
