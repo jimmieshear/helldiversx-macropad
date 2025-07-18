@@ -38,6 +38,7 @@ GAS_GUARD_DOG           = {'color':BLUETWO, 'label':'Gas', 'keycode':(Keycode.S,
 DIRECTIONAL_SHIELD      = {'color':BLUETWO, 'label':'DShld', 'keycode':(Keycode.S, Keycode.W, Keycode.A, Keycode.D, Keycode.W, Keycode.W)}
 PORTABLE_HELLBOMB       = {'color':BLUETWO, 'label':'Helbm', 'keycode':(Keycode.S, Keycode.D, Keycode.W, Keycode.W, Keycode.W)}
 HOVER_PACK              = {'color':BLUETWO, 'label':'HverP', 'keycode':(Keycode.S, Keycode.W, Keycode.W, Keycode.S, Keycode.A, Keycode.D)}
+WARP_PACK               = {'color':BLUETWO, 'label':'WarpP', 'keycode':(Keycode.S, Keycode.A, Keycode.D, Keycode.S, Keycode.A, Keycode.D)}
 
 # SUPPORT WEAPONS -- BLUE
 MACHINE_GUN             = {'color':BLUE, 'label':'MaGun', 'keycode':(Keycode.S, Keycode.A, Keycode.S, Keycode.W, Keycode.D)}
@@ -60,6 +61,7 @@ WASP_LAUNCHER           = {'color':BLUE, 'label':'WASP', 'keycode':(Keycode.S, K
 TRUE_FLAG               = {'color':BLUE, 'label':'FLAG', 'keycode':(Keycode.S, Keycode.A, Keycode.D, Keycode.D, Keycode.W)}
 DE_ESCALATOR            = {'color':BLUE, 'label':'DEsc', 'keycode':(Keycode.A, Keycode.D, Keycode.W, Keycode.A, Keycode.D)}
 TX_STERILIZER           = {'color':BLUE, 'label':'Sterl', 'keycode':(Keycode.S, Keycode.A, Keycode.W, Keycode.S, Keycode.A)}
+PLAS_4S_EPOCH           = {'color':BLUE, 'label':'Epoch', 'keycode':(Keycode.S, Keycode.A, Keycode.W, Keycode.S, Keycode.D)}
 
 # SUPPORT VEHICLES -- BLUE
 EX045_PATRIOT           = {'color':BLUE, 'label':'Patriot', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keycode.S, Keycode.S)}
@@ -86,6 +88,7 @@ MORTAR_SENTRY           = {'color':GREEN, 'label':'MortSe', 'keycode':(Keycode.S
 AUTOCANNON_SENTRY       = {'color':GREEN, 'label':'AutoSe', 'keycode':(Keycode.S, Keycode.W, Keycode.D, Keycode.W, Keycode.A, Keycode.W)}
 ROCKET_SENTRY           = {'color':GREEN, 'label':'RockeS', 'keycode':(Keycode.S, Keycode.W, Keycode.D, Keycode.D, Keycode.A)}
 EMS_MORTAR_SENTRY       = {'color':GREEN, 'label':'EMSSen', 'keycode':(Keycode.S, Keycode.W, Keycode.D, Keycode.S, Keycode.D)}
+LASER_SENTRY            = {'color':GREEN, 'label':'LazSen', 'keycode':(Keycode.S, Keycode.W, Keycode.D, Keycode.S, Keycode.W, Keycode.D)}
 ANTI_PERSONNEL_MINE     = {'color':GREEN, 'label':'AntiPer', 'keycode':(Keycode.S, Keycode.A, Keycode.W, Keycode.D)}
 INCENDIARY_MINE         = {'color':GREEN, 'label':'FireMin', 'keycode':(Keycode.S, Keycode.A, Keycode.A, Keycode.S)}
 ANTI_TANK_MINE          = {'color':GREEN, 'label':'AntiTan', 'keycode':(Keycode.S, Keycode.A, Keycode.W, Keycode.W)}
