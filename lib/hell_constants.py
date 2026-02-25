@@ -39,6 +39,7 @@ DIRECTIONAL_SHIELD      = {'color':BLUETWO, 'label':'DShld', 'keycode':(Keycode.
 PORTABLE_HELLBOMB       = {'color':BLUETWO, 'label':'Helbm', 'keycode':(Keycode.S, Keycode.D, Keycode.W, Keycode.W, Keycode.W)}
 HOVER_PACK              = {'color':BLUETWO, 'label':'HverP', 'keycode':(Keycode.S, Keycode.W, Keycode.W, Keycode.S, Keycode.A, Keycode.D)}
 WARP_PACK               = {'color':BLUETWO, 'label':'WarpP', 'keycode':(Keycode.S, Keycode.A, Keycode.D, Keycode.S, Keycode.A, Keycode.D)}
+C4_PACK                 = {'color':BLUETWO, 'label':'C4Pack', 'keycode':(Keycode.S, Keycode.D, Keycode.W, Keycode.W, Keycode.D, Keycode.W)}
 
 # SUPPORT WEAPONS -- BLUE
 MACHINE_GUN             = {'color':BLUE, 'label':'MaGun', 'keycode':(Keycode.S, Keycode.A, Keycode.S, Keycode.W, Keycode.D)}
@@ -65,12 +66,17 @@ PLAS_4S_EPOCH           = {'color':BLUE, 'label':'Epoch', 'keycode':(Keycode.S, 
 S_11_SPEARGUN           = {'color':BLUE, 'label':'SprGun', 'keycode':(Keycode.S, Keycode.D, Keycode.S, Keycode.A, Keycode.W, Keycode.D)}
 EAT_EXP_NAPALM          = {'color':BLUE, 'label':'EATNa', 'keycode':(Keycode.S, Keycode.S, Keycode.A, Keycode.W, Keycode.A)}
 MS_11_SOLO_SILO         = {'color':BLUE, 'label':'Silo', 'keycode':(Keycode.S, Keycode.W, Keycode.D, Keycode.S, Keycode.S)}
-
+BEACHING_HAMMER         = {'color':BLUE, 'label':'Hamer', 'keycode':(Keycode.S, Keycode.A, Keycode.D, Keycode.A, Keycode.W)}
+DEFOLIATION_TOOL        = {'color':BLUE, 'label':'Defol', 'keycode':(Keycode.S, Keycode.A, Keycode.D, Keycode.D, Keycode.S)}
+EAT_411_LEVELLER        = {'color':BLUE, 'label':'Levlr', 'keycode':(Keycode.S, Keycode.S, Keycode.A, Keycode.W, Keycode.S)}
+BELTFED_GRENADE         = {'color':BLUE, 'label':'BeltG', 'keycode':(Keycode.S, Keycode.A, Keycode.W, Keycode.A, Keycode.W, Keycode.W)}
+M1000_MAXIGUN           = {'color':BLUE, 'label':'MaxG', 'keycode':(Keycode.S, Keycode.A, Keycode.D, Keycode.S, Keycode.W, Keycode.W)}
 
 # SUPPORT VEHICLES -- BLUE
 EX045_PATRIOT           = {'color':BLUE, 'label':'Patriot', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keycode.S, Keycode.S)}
 EXO49_EMANCIPATOR       = {'color':BLUE, 'label':'Emanc', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.W, Keycode.A, Keycode.S, Keycode.W)}
 RECON_VEHICLE           = {'color':BLUE, 'label':'Recon', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.S, Keycode.D, Keycode.S, Keycode.W)}
+BASTION_TANK            = {'color':BLUE, 'label':'Tank', 'keycode':(Keycode.A, Keycode.S, Keycode.D, Keycode.S, Keycode.A, Keycode.S, Keycode.W, Keycode.S, Keycode.W)}
 
 # MISSION COMMON -- YELLOW
 REINFORCE               = {'color':YELLOW, 'label':'Rein', 'keycode':(Keycode.W, Keycode.S, Keycode.D, Keycode.A, Keycode.W)}
@@ -125,8 +131,8 @@ ORBITAL_SMOKE_STRIKE    = {'color':RED, 'label':'Smoke', 'keycode':(Keycode.D, K
 ORBITAL_NAPALM_BARRAGE  = {'color':RED, 'label':'Naplm', 'keycode':(Keycode.D, Keycode.D, Keycode.S, Keycode.A, Keycode.D, Keycode.W)}
 
 # OFFENSIVE EAGLE -- ORANGE
-EAGLE_STRAFING_RUN      = {'color':ORANGE, 'label':'straf', 'keycode':(Keycode.W, Keycode.D, Keycode.D)}
-EAGLE_AIRSTRIKE         = {'color':ORANGE, 'label':'airstr', 'keycode':(Keycode.W, Keycode.D, Keycode.S, Keycode.D)}
+EAGLE_STRAFING_RUN      = {'color':ORANGE, 'label':'Straf', 'keycode':(Keycode.W, Keycode.D, Keycode.D)}
+EAGLE_AIRSTRIKE         = {'color':ORANGE, 'label':'Airstr', 'keycode':(Keycode.W, Keycode.D, Keycode.S, Keycode.D)}
 EAGLE_CLUSTER_BOMB      = {'color':ORANGE, 'label':'Clust', 'keycode':(Keycode.W, Keycode.D, Keycode.S, Keycode.S, Keycode.D)}
 EAGLE_NAPALM_STRIKE     = {'color':ORANGE, 'label':'Naplm', 'keycode':(Keycode.W, Keycode.D, Keycode.S, Keycode.W)}
 EAGLE_SMOKE             = {'color':ORANGE, 'label':'Smoke', 'keycode':(Keycode.W, Keycode.D, Keycode.W, Keycode.S)}

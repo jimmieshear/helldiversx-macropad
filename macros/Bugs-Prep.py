@@ -12,7 +12,7 @@ app = {
         h.prepare_macro(h.GAS_GUARD_DOG),
 
         # 2nd row ----------
-        h.prepare_macro(h.GRENADE_LAUNCHER),
+        h.prepare_macro(h.SPEAR),
         h.prepare_macro(h.GRENADE_WALL),
         h.prepare_macro(h.FLAMETHROWER),
 
